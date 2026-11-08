@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josiel Cleaning Materials | Keep Clean - South Africa's Trusted Cleaning Supplier</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Josiel Cleaning Materials is a premier South African cleaning materials supplier (Reg: K2022880145). Supplying high-quality cleaning chemicals, equipment, and hygiene supplies to businesses, schools, hotels, and households across South Africa.">
+    <meta name="keywords" content="Cleaning Materials Supplier South Africa, Cleaning Chemicals Supplier, Commercial Cleaning Supplies, Hygiene Products Supplier, Cleaning Equipment Supplier, Bulk Cleaning Materials, Nigel, Gauteng">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            400: '#D4AF37',
+                            500: '#C5A059',
+                            600: '#AA823A',
+                            700: '#8C6728'
+                        },
+                        darknavy: {
+                            900: '#0A0F1D',
+                            800: '#121826',
+                            700: '#1E2538'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts & FontAwesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        .gold-gradient {
+            background: linear-gradient(135deg, #F3E5AB 0%, #C5A059 50%, #99742B 100%);
+        }
+        .gold-text-gradient {
+            background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 50%, #AA823A 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-border {
+            border-color: #C5A059;
+        }
+        .hero-video-container {
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-video-container video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+            z-index: 0;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #121826;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #C5A059;
+            border-radius: 5px;
+        }
+
+        /* Explicit Day and Night Theme Mode Rules */
+        :root {
+            --bg-main: #FFFFFF;
+            --bg-section-alt: #F9FAFB;
+            --bg-card: #FFFFFF;
+            --text-main: #111827;
+            --text-muted: #4B5563;
+            --border-color: #E5E7EB;
+            --nav-bg: rgba(255, 255, 255, 0.95);
+        }
+
+        .dark {
+            --bg-main: #0A0F1D;
+            --bg-section-alt: #121826;
+            --bg-card: #1E2538;
+            --text-main: #FFFFFF;
+            --text-muted: #9CA3AF;
+            --border-color: #2D3748;
+            --nav-bg: rgba(10, 15, 29, 0.95);
+        }
+
+        body {
+            background-color: var(--bg-main) !important;
+            color: var(--text-main) !important;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-gold-500 selection:text-black transition-colors duration-300" id="body-root">
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="sticky top-0 z-50 backdrop-blur-md border-b transition-all duration-300" style="background-color: var(--nav-bg); border-color: var(--border-color);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <!-- Brand Logo (Enlarged & Fully Visible without cropping) -->
+                <a href="#home" class="flex items-center space-x-3 group">
+                    <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl overflow-hidden border-2 border-gold-500 shadow-xl shadow-gold-500/20 group-hover:scale-105 transition bg-black flex items-center justify-center p-0.5">
+                        <img src="logo.jpeg" alt="Josiel Cleaning Materials Logo" class="w-full h-full object-contain" onerror="this.src='https://placehold.co/100x100/121826/D4AF37?text=JC'">
+                    </div>
+                    <div>
+                        <span class="text-base sm:text-xl font-bold tracking-wider block leading-tight" style="color: var(--text-main);">JOSIEL</span>
+                        <span class="text-xs tracking-widest text-gold-600 dark:text-gold-400 font-semibold uppercase">CLEANING MATERIALS</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links (Home, Services, About Us, Contact Us) -->
+                <div class="hidden lg:flex items-center space-x-9 text-sm font-medium">
+                    <a href="#home" class="transition hover:text-gold-500" style="color: var(--text-main);">Home</a>
+                    <a href="#services" class="transition hover:text-gold-500" style="color: var(--text-main);">Services</a>
+                    <a href="#about" class="transition hover:text-gold-500" style="color: var(--text-main);">About Us</a>
+                    <a href="#contact" class="transition hover:text-gold-500" style="color: var(--text-main);">Contact Us</a>
+                </div>
+
+                <!-- CTA Button & Theme Toggle -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <button onclick="toggleTheme()" class="w-10 h-10 rounded-lg border text-gold-500 flex items-center justify-center hover:scale-105 transition shadow-sm" style="background-color: var(--bg-card); border-color: var(--border-color);" title="Toggle Day/Night Theme">
+                        <i id="theme-icon" class="fa-solid fa-moon text-lg transition-transform duration-300"></i>
+                    </button>
+                    <button onclick="openQuoteModal('General Quote')" class="gold-gradient text-black font-bold px-5 py-2.5 rounded-lg shadow-lg hover:opacity-90 transform hover:-translate-y-0.5 transition flex items-center space-x-2 text-sm">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                        <span>REQUEST A QUOTE</span>
+                    </button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="lg:hidden flex items-center space-x-3">
+                    <button onclick="toggleTheme()" class="w-9 h-9 rounded-lg border text-gold-500 flex items-center justify-center shadow-sm" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                        <i id="theme-icon-mob" class="fa-solid fa-moon text-base transition-transform duration-300"></i>
+                    </button>
+                    <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="p-2 focus:outline-none" style="color: var(--text-main);">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden lg:hidden border-b px-6 pt-4 pb-6 space-y-3 shadow-lg" style="background-color: var(--bg-card); border-color: var(--border-color);">
+            <a href="#home" onclick="toggleMobileMenu()" class="block font-medium py-1.5 hover:text-gold-500" style="color: var(--text-main);">Home</a>
+            <a href="#services" onclick="toggleMobileMenu()" class="block font-medium py-1.5 hover:text-gold-500" style="color: var(--text-main);">Services</a>
+            <a href="#about" onclick="toggleMobileMenu()" class="block font-medium py-1.5 hover:text-gold-500" style="color: var(--text-main);">About Us</a>
+            <a href="#contact" onclick="toggleMobileMenu()" class="block font-medium py-1.5 hover:text-gold-500" style="color: var(--text-main);">Contact Us</a>
+            <div class="pt-3">
+                <button onclick="toggleMobileMenu(); openQuoteModal('General Quote');" class="w-full gold-gradient text-black font-bold py-3 rounded-lg text-center shadow-md">
+                    REQUEST A QUOTE
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION WITH VIDEO BACKGROUND -->
+    <header id="home" class="hero-video-container min-h-[90vh] flex items-center relative overflow-hidden text-white">
+        <!-- Background Video (background.mp4) -->
+        <video autoplay muted loop playsinline>
+            <source src="background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- Dark Professional Gradient Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-r from-darknavy-900/90 via-darknavy-900/70 to-darknavy-900/50 z-1"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10 w-full">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center space-x-2 bg-gold-500/10 border border-gold-500/30 px-4 py-1.5 rounded-full text-gold-400 text-sm font-semibold mb-6 animate-pulse">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>South Africa's Premier Hygiene & Cleaning Partner</span>
+                </div>
+                <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight mb-6">
+                    YOUR TRUSTED PARTNER IN <span class="gold-text-gradient">QUALITY CLEANING</span> MATERIALS
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-200 mb-10 leading-relaxed">
+                    "At Josiel Cleaning Materials, we are committed to providing quality cleaning materials and hygiene solutions that help businesses, organisations and households maintain clean, safe and hygienic environments."
+                </p>
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center space-y-4 sm:space-y-0 sm:space-x-5">
+                    <a href="#products" class="gold-gradient text-black font-bold px-8 py-4 rounded-xl shadow-xl hover:opacity-90 text-center transition flex items-center justify-center space-x-3">
+                        <span>EXPLORE OUR PRODUCTS</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <button onclick="openQuoteModal('General Quote')" class="bg-darknavy-800 hover:bg-darknavy-700 text-white font-bold px-8 py-4 rounded-xl border border-gold-500/40 hover:border-gold-500 transition text-center shadow-lg">
+                        REQUEST A QUOTE
+                    </button>
+                </div>
+
+                <!-- Stats Bar -->
+                <div class="grid grid-cols-3 gap-6 mt-16 pt-10 border-t border-gray-800/80">
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-gold-400">100%</div>
+                        <div class="text-xs sm:text-sm text-gray-300 mt-1">Quality Assurance</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-gold-400">K2022880145</div>
+                        <div class="text-xs sm:text-sm text-gray-300 mt-1">Registered SA Entity</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-gold-400">Nationwide</div>
+                        <div class="text-xs sm:text-sm text-gray-300 mt-1">Delivery & Supply</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT US SECTION -->
+    <section id="about" class="py-24 transition-colors duration-300" style="background-color: var(--bg-section-alt);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-6 relative">
+                    <div class="absolute -inset-4 gold-gradient opacity-20 rounded-3xl blur-xl"></div>
+                    <div class="relative rounded-2xl overflow-hidden border-2 border-gold-500/30 shadow-2xl">
+                        <img src="https://images.pexels.com/photos/4098917/pexels-photo-4098917.jpeg" alt="Professional Cleaning Products" class="w-full h-auto object-cover hover:scale-105 transition duration-500" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?auto=format&fit=crop&w=1000&q=80'">
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 p-6 rounded-2xl shadow-2xl max-w-xs hidden sm:block border border-gold-500/50" style="background-color: var(--bg-card);">
+                        <div class="flex items-center space-x-3 mb-2">
+                            <div class="w-10 h-10 rounded-lg gold-gradient flex items-center justify-center text-black font-bold">
+                                <i class="fa-solid fa-award"></i>
+                            </div>
+                            <div>
+                                <div class="font-bold text-sm" style="color: var(--text-main);">Established Supply</div>
+                                <div class="text-xs text-gold-600 dark:text-gold-400">Reg: 16 Dec 2022</div>
+                            </div>
+                        </div>
+                        <p class="text-xs" style="color: var(--text-muted);">Committed to superior hygiene standards across South Africa.</p>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center space-x-2 text-gold-600 dark:text-gold-400 font-semibold text-sm uppercase tracking-wider">
+                        <i class="fa-solid fa-circle text-xs"></i>
+                        <span>WHO WE ARE</span>
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold leading-tight" style="color: var(--text-main);">
+                        Dedicated to Excellence & Superior Hygiene Solutions
+                    </h2>
+                    <p class="text-base leading-relaxed" style="color: var(--text-muted);">
+                        "Josiel Cleaning Materials is a South African business established to provide cleaning materials and hygiene solutions to customers across different industries."
+                    </p>
+                    <p class="text-base leading-relaxed" style="color: var(--text-muted);">
+                        "We understand the importance of cleanliness, hygiene and maintaining professional environments. Our focus is on providing dependable cleaning material solutions while building lasting relationships with our customers."
+                    </p>
+                    <p class="text-base leading-relaxed" style="color: var(--text-muted);">
+                        "We aim to become a trusted supplier by prioritising customer satisfaction, product quality, professional service and reliability."
+                    </p>
+                    
+                    <div class="p-5 rounded-xl border-l-4 border-gold-500 my-4 shadow-md" style="background-color: var(--bg-card);">
+                        <p class="text-gold-600 dark:text-gold-400 font-bold text-lg">"At Josiel Cleaning Materials, our philosophy is simple: KEEP CLEAN."</p>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4 pt-4 border-t" style="border-color: var(--border-color);">
+                        <div>
+                            <span class="text-xs block uppercase" style="color: var(--text-muted);">Registration Number</span>
+                            <span class="font-bold text-sm sm:text-base" style="color: var(--text-main);">K2022880145</span>
+                        </div>
+                        <div>
+                            <span class="text-xs block uppercase" style="color: var(--text-muted);">Registration Date</span>
+                            <span class="font-bold text-sm sm:text-base" style="color: var(--text-main);">16 December 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section id="products" class="py-24 transition-colors duration-300" style="background-color: var(--bg-main);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-gold-600 dark:text-gold-400 font-semibold text-sm uppercase tracking-wider block mb-2">OUR CATALOGUE</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold mb-4" style="color: var(--text-main);">Professional Cleaning & Hygiene Products</h2>
+                <p class="text-base sm:text-lg" style="color: var(--text-muted);">Explore our extensive range of high-grade cleaning materials, chemicals, and equipment tailored for businesses, institutions, and households.</p>
+                
+                <!-- Category Tabs -->
+                <div class="flex flex-wrap justify-center gap-2 mt-8">
+                    <button onclick="filterProducts('all')" class="prod-tab px-5 py-2.5 rounded-lg text-sm font-semibold transition bg-gold-500 text-black shadow-md" data-category="all">All Products</button>
+                    <button onclick="filterProducts('chemicals')" class="prod-tab px-5 py-2.5 rounded-lg text-sm font-semibold transition border hover:border-gold-500" style="background-color: var(--bg-card); color: var(--text-main); border-color: var(--border-color);" data-category="chemicals">Cleaning Chemicals</button>
+                    <button onclick="filterProducts('equipment')" class="prod-tab px-5 py-2.5 rounded-lg text-sm font-semibold transition border hover:border-gold-500" style="background-color: var(--bg-card); color: var(--text-main); border-color: var(--border-color);" data-category="equipment">Cleaning Equipment</button>
+                    <button onclick="filterProducts('hygiene')" class="prod-tab px-5 py-2.5 rounded-lg text-sm font-semibold transition border hover:border-gold-500" style="background-color: var(--bg-card); color: var(--text-main); border-color: var(--border-color);" data-category="hygiene">Hygiene & Sanitation</button>
+                    <button onclick="filterProducts('accessories')" class="prod-tab px-5 py-2.5 rounded-lg text-sm font-semibold transition border hover:border-gold-500" style="background-color: var(--bg-card); color: var(--text-main); border-color: var(--border-color);" data-category="accessories">Accessories</button>
+                </div>
+            </div>
+
+            <!-- Product Grid -->
+            <div id="product-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="product-card rounded-2xl overflow-hidden border hover:border-gold-500/50 transition-all duration-300 flex flex-col group shadow-lg" style="background-color: var(--bg-card); border-color: var(--border-color);" data-category="chemicals">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?auto=format&fit=crop&w=800&q=80" alt="All-purpose cleaning chemicals" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/600x400/121826/D4AF37?text=Josiel+Cleaning'">
+                        <span class="absolute top-4 left-4 text-gold-600 dark:text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30" style="background-color: var(--bg-card);">Chemicals</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">All-Purpose Cleaning Chemicals</h3>
+                            <p class="text-sm mb-6 leading-relaxed" style="color: var(--text-muted);">High-performance formulation designed to tackle stubborn dirt, grease, and grime across multiple hard surfaces effortlessly.</p>
+                        </div>
+                        <button onclick="openQuoteModal('All-Purpose Cleaning Chemicals')" class="w-full hover:bg-gold-500 hover:text-black text-gold-600 dark:text-gold-400 font-bold py-3 rounded-xl border border-gold-500/40 transition flex items-center justify-center space-x-2 text-sm" style="background-color: var(--bg-section-alt);">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>REQUEST A QUOTE</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card rounded-2xl overflow-hidden border hover:border-gold-500/50 transition-all duration-300 flex flex-col group shadow-lg" style="background-color: var(--bg-card); border-color: var(--border-color);" data-category="chemicals">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=800&q=80" alt="Floor cleaning detergents" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/600x400/121826/D4AF37?text=Josiel+Cleaning'">
+                        <span class="absolute top-4 left-4 text-gold-600 dark:text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30" style="background-color: var(--bg-card);">Chemicals</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Floor Cleaning Detergents</h3>
+                            <p class="text-sm mb-6 leading-relaxed" style="color: var(--text-muted);">Specialized floor care solutions that clean, protect, and leave a long-lasting pleasant fragrance on tiles, vinyl, and wood floors.</p>
+                        </div>
+                        <button onclick="openQuoteModal('Floor Cleaning Detergents')" class="w-full hover:bg-gold-500 hover:text-black text-gold-600 dark:text-gold-400 font-bold py-3 rounded-xl border border-gold-500/40 transition flex items-center justify-center space-x-2 text-sm" style="background-color: var(--bg-section-alt);">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>REQUEST A QUOTE</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card rounded-2xl overflow-hidden border hover:border-gold-500/50 transition-all duration-300 flex flex-col group shadow-lg" style="background-color: var(--bg-card); border-color: var(--border-color);" data-category="chemicals">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=800&q=80" alt="Disinfectants and sanitising products" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/600x400/121826/D4AF37?text=Josiel+Cleaning'">
+                        <span class="absolute top-4 left-4 text-gold-600 dark:text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30" style="background-color: var(--bg-card);">Chemicals</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Disinfectants & Sanitising Products</h3>
+                            <p class="text-sm mb-6 leading-relaxed" style="color: var(--text-muted);">Hospital-grade disinfectants formulated to eliminate 99.9% of bacteria and viruses, ensuring maximum hygiene safety.</p>
+                        </div>
+                        <button onclick="openQuoteModal('Disinfectants & Sanitising Products')" class="w-full hover:bg-gold-500 hover:text-black text-gold-600 dark:text-gold-400 font-bold py-3 rounded-xl border border-gold-500/40 transition flex items-center justify-center space-x-2 text-sm" style="background-color: var(--bg-section-alt);">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>REQUEST A QUOTE</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card rounded-2xl overflow-hidden border hover:border-gold-500/50 transition-all duration-300 flex flex-col group shadow-lg" style="background-color: var(--bg-card); border-color: var(--border-color);" data-category="equipment">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="https://images.pexels.com/photos/34516664/pexels-photo-34516664.jpeg" alt="Mops and buckets" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/600x400/121826/D4AF37?text=Josiel+Cleaning'">
+                        <span class="absolute top-4 left-4 text-gold-600 dark:text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30" style="background-color: var(--bg-card);">Equipment</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Mops & Heavy-Duty Buckets</h3>
+                            <p class="text-sm mb-6 leading-relaxed" style="color: var(--text-muted);">Ergonomic, robust commercial wringer buckets and ultra-absorbent industrial mops for efficient large-scale floor maintenance.</p>
+                        </div>
+                        <button onclick="openQuoteModal('Mops & Heavy-Duty Buckets')" class="w-full hover:bg-gold-500 hover:text-black text-gold-600 dark:text-gold-400 font-bold py-3 rounded-xl border border-gold-500/40 transition flex items-center justify-center space-x-2 text-sm" style="background-color: var(--bg-section-alt);">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>REQUEST A QUOTE</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card rounded-2xl overflow-hidden border hover:border-gold-500/50 transition-all duration-300 flex flex-col group shadow-lg" style="background-color: var(--bg-card); border-color: var(--border-color);" data-category="equipment">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="https://images.pexels.com/photos/31264557/pexels-photo-31264557.jpeg" alt="Brooms and brushes" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/600x400/121826/D4AF37?text=Josiel+Cleaning'">
+                        <span class="absolute top-4 left-4 text-gold-600 dark:text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30" style="background-color: var(--bg-card);">Equipment</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Brooms & Scrubbing Brushes</h3>
+                            <p class="text-sm mb-6 leading-relaxed" style="color: var(--text-muted);">Durable indoor and outdoor brooms, hand brushes, and stiff-bristled deck scrubbers built for rigorous daily commercial use.</p>
+                        </div>
+                        <button onclick="openQuoteModal('Brooms & Scrubbing Brushes')" class="w-full hover:bg-gold-500 hover:text-black text-gold-600 dark:text-gold-400 font-bold py-3 rounded-xl border border-gold-500/40 transition flex items-center justify-center space-x-2 text-sm" style="background-color: var(--bg-section-alt);">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>REQUEST A QUOTE</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card rounded-2xl overflow-hidden border hover:border-gold-500/50 transition-all duration-300 flex flex-col group shadow-lg" style="background-color: var(--bg-card); border-color: var(--border-color);" data-category="hygiene">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="https://images.pexels.com/photos/8217401/pexels-photo-8217401.jpeg" alt="Hand sanitiser and liquid soap" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://images.unsplash.com/photo-1584483766114-2cea6facaf57?auto=format&fit=crop&w=800&q=80'">
+                        <span class="absolute top-4 left-4 text-gold-600 dark:text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30" style="background-color: var(--bg-card);">Hygiene</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Hand Sanitiser & Liquid Soap</h3>
+                            <p class="text-sm mb-6 leading-relaxed" style="color: var(--text-muted);">Gentle yet effective antibacterial liquid hand soaps and alcohol-based hand sanitisers packaged for offices, washrooms, and high-traffic areas.</p>
+                        </div>
+                        <button onclick="openQuoteModal('Hand Sanitiser & Liquid Soap')" class="w-full hover:bg-gold-500 hover:text-black text-gold-600 dark:text-gold-400 font-bold py-3 rounded-xl border border-gold-500/40 transition flex items-center justify-center space-x-2 text-sm" style="background-color: var(--bg-section-alt);">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>REQUEST A QUOTE</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card rounded-2xl overflow-hidden border hover:border-gold-500/50 transition-all duration-300 flex flex-col group shadow-lg" style="background-color: var(--bg-card); border-color: var(--border-color);" data-category="hygiene">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=800&q=80" alt="Toilet paper and paper towels" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/600x400/121826/D4AF37?text=Josiel+Cleaning'">
+                        <span class="absolute top-4 left-4 text-gold-600 dark:text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30" style="background-color: var(--bg-card);">Hygiene</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Toilet Paper & Paper Towels</h3>
+                            <p class="text-sm mb-6 leading-relaxed" style="color: var(--text-muted);">High-quality 1-ply and 2-ply toilet paper rolls, jumbo rolls, and absorbent multifold paper towels supplied in bulk for commercial washrooms.</p>
+                        </div>
+                        <button onclick="openQuoteModal('Toilet Paper & Paper Towels')" class="w-full hover:bg-gold-500 hover:text-black text-gold-600 dark:text-gold-400 font-bold py-3 rounded-xl border border-gold-500/40 transition flex items-center justify-center space-x-2 text-sm" style="background-color: var(--bg-section-alt);">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>REQUEST A QUOTE</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card rounded-2xl overflow-hidden border hover:border-gold-500/50 transition-all duration-300 flex flex-col group shadow-lg" style="background-color: var(--bg-card); border-color: var(--border-color);" data-category="hygiene">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="https://www.pexels.com/photo/a-person-holding-black-garbage-bag-5029863/" alt="Refuse bags" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://images.pexels.com/photos/5029863/pexels-photo-5029863.jpeg?auto=format&fit=crop&w=800&q=80'">
+                        <span class="absolute top-4 left-4 text-gold-600 dark:text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30" style="background-color: var(--bg-card);">Hygiene</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Heavy-Duty Refuse Bags</h3>
+                            <p class="text-sm mb-6 leading-relaxed" style="color: var(--text-muted);">Tear-resistant industrial and commercial refuse bags designed to handle heavy waste securely without leaking or splitting.</p>
+                        </div>
+                        <button onclick="openQuoteModal('Heavy-Duty Refuse Bags')" class="w-full hover:bg-gold-500 hover:text-black text-gold-600 dark:text-gold-400 font-bold py-3 rounded-xl border border-gold-500/40 transition flex items-center justify-center space-x-2 text-sm" style="background-color: var(--bg-section-alt);">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>REQUEST A QUOTE</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card rounded-2xl overflow-hidden border hover:border-gold-500/50 transition-all duration-300 flex flex-col group shadow-lg" style="background-color: var(--bg-card); border-color: var(--border-color);" data-category="accessories">
+                    <div class="h-56 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=800&q=80" alt="Protective gloves and accessories" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/600x400/121826/D4AF37?text=Josiel+Cleaning'">
+                        <span class="absolute top-4 left-4 text-gold-600 dark:text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30" style="background-color: var(--bg-card);">Accessories</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Protective Gloves & Spray Bottles</h3>
+                            <p class="text-sm mb-6 leading-relaxed" style="color: var(--text-muted);">Chemical-resistant household and industrial gloves, trigger spray bottles, microfibre cloths, and scouring sponges for professional cleaning staff.</p>
+                        </div>
+                        <button onclick="openQuoteModal('Protective Gloves & Accessories')" class="w-full hover:bg-gold-500 hover:text-black text-gold-600 dark:text-gold-400 font-bold py-3 rounded-xl border border-gold-500/40 transition flex items-center justify-center space-x-2 text-sm" style="background-color: var(--bg-section-alt);">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>REQUEST A QUOTE</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-24 transition-colors duration-300" style="background-color: var(--bg-section-alt);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-gold-600 dark:text-gold-400 font-semibold text-sm uppercase tracking-wider block mb-2">OUR EXPERTISE</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold mb-4" style="color: var(--text-main);">Professional Cleaning Supply Services</h2>
+                <p class="text-base sm:text-lg" style="color: var(--text-muted);">We offer comprehensive supply solutions tailored to meet the exact hygiene and operational demands of any organisation.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 flex flex-col justify-between group shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                            <i class="fa-solid fa-truck-ramp-box"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Cleaning Materials Supply</h3>
+                        <p class="text-sm leading-relaxed mb-6" style="color: var(--text-muted);">Reliable, regular delivery of top-grade cleaning consumables ensuring your facilities never run short.</p>
+                    </div>
+                    <button onclick="openQuoteModal('Service: Cleaning Materials Supply')" class="text-gold-600 dark:text-gold-400 font-semibold text-sm flex items-center space-x-2 hover:text-gold-700">
+                        <span>Enquire Now</span>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 flex flex-col justify-between group shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                            <i class="fa-solid fa-building-user"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Commercial Cleaning Supplies</h3>
+                        <p class="text-sm leading-relaxed mb-6" style="color: var(--text-muted);">Tailored product bundles designed specifically for office blocks, business parks, and retail complexes.</p>
+                    </div>
+                    <button onclick="openQuoteModal('Service: Commercial Cleaning Supplies')" class="text-gold-600 dark:text-gold-400 font-semibold text-sm flex items-center space-x-2 hover:text-gold-700">
+                        <span>Enquire Now</span>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 flex flex-col justify-between group shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Household Cleaning Supplies</h3>
+                        <p class="text-sm leading-relaxed mb-6" style="color: var(--text-muted);">Premium, safe, and effective cleaning products packaged for domestic households and residential estates.</p>
+                    </div>
+                    <button onclick="openQuoteModal('Service: Household Cleaning Supplies')" class="text-gold-600 dark:text-gold-400 font-semibold text-sm flex items-center space-x-2 hover:text-gold-700">
+                        <span>Enquire Now</span>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 flex flex-col justify-between group shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                            <i class="fa-solid fa-soap"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Office Hygiene Products</h3>
+                        <p class="text-sm leading-relaxed mb-6" style="color: var(--text-muted);">Complete washroom hygiene solutions, including sanitiser dispensers, soaps, and quality paper products.</p>
+                    </div>
+                    <button onclick="openQuoteModal('Service: Office Hygiene Products')" class="text-gold-600 dark:text-gold-400 font-semibold text-sm flex items-center space-x-2 hover:text-gold-700">
+                        <span>Enquire Now</span>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 flex flex-col justify-between group shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                            <i class="fa-solid fa-industry"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Industrial Cleaning Materials</h3>
+                        <p class="text-sm leading-relaxed mb-6" style="color: var(--text-muted);">Heavy-duty industrial degreasers, floor strippers, and robust equipment for factories and warehouses.</p>
+                    </div>
+                    <button onclick="openQuoteModal('Service: Industrial Cleaning Materials')" class="text-gold-600 dark:text-gold-400 font-semibold text-sm flex items-center space-x-2 hover:text-gold-700">
+                        <span>Enquire Now</span>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 flex flex-col justify-between group shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                            <i class="fa-solid fa-boxes-stacked"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Bulk Cleaning Supplies</h3>
+                        <p class="text-sm leading-relaxed mb-6" style="color: var(--text-muted);">Cost-effective bulk orders with special tiered quotations for large organizations and cleaning contractors.</p>
+                    </div>
+                    <button onclick="openQuoteModal('Service: Bulk Cleaning Supplies')" class="text-gold-600 dark:text-gold-400 font-semibold text-sm flex items-center space-x-2 hover:text-gold-700">
+                        <span>Enquire Now</span>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 flex flex-col justify-between group shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Institutional Cleaning Supplies</h3>
+                        <p class="text-sm leading-relaxed mb-6" style="color: var(--text-muted);">Dedicated supplies for schools, universities, hospitals, clinics, and government institutions.</p>
+                    </div>
+                    <button onclick="openQuoteModal('Service: Institutional Cleaning Supplies')" class="text-gold-600 dark:text-gold-400 font-semibold text-sm flex items-center space-x-2 hover:text-gold-700">
+                        <span>Enquire Now</span>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 flex flex-col justify-between group shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 shadow-md group-hover:scale-110 transition">
+                            <i class="fa-solid fa-sliders"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Customised Supply Solutions</h3>
+                        <p class="text-sm leading-relaxed mb-6" style="color: var(--text-muted);">Tailor-made cleaning product packages and recurring delivery schedules aligned with your budget.</p>
+                    </div>
+                    <button onclick="openQuoteModal('Service: Customised Supply Solutions')" class="text-gold-600 dark:text-gold-400 font-semibold text-sm flex items-center space-x-2 hover:text-gold-700">
+                        <span>Enquire Now</span>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INDUSTRIES WE SERVE -->
+    <section id="industries" class="py-24 transition-colors duration-300" style="background-color: var(--bg-main);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-gold-600 dark:text-gold-400 font-semibold text-sm uppercase tracking-wider block mb-2">SECTORS WE SUPPORT</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold mb-4" style="color: var(--text-main);">Industries Across South Africa</h2>
+                <p class="text-base sm:text-lg" style="color: var(--text-muted);">Josiel Cleaning Materials proudly delivers professional cleaning solutions to a diverse range of sectors nationwide.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Industry 1 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <div class="text-gold-600 dark:text-gold-400 text-xs font-bold uppercase mb-1">Sector 01</div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Corporate Offices</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Maintaining pristine workspaces, boardrooms, and executive reception areas.</p>
+                </div>
+
+                <!-- Industry 2 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="text-gold-600 dark:text-gold-400 text-xs font-bold uppercase mb-1">Sector 02</div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Schools & Education</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Safe, germ-free learning environments for students, teachers, and staff.</p>
+                </div>
+
+                <!-- Industry 3 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-hotel"></i>
+                    </div>
+                    <div class="text-gold-600 dark:text-gold-400 text-xs font-bold uppercase mb-1">Sector 03</div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Hotels & Hospitality</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Immaculate guest rooms, dining halls, and luxury hospitality amenities.</p>
+                </div>
+
+                <!-- Industry 4 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div class="text-gold-600 dark:text-gold-400 text-xs font-bold uppercase mb-1">Sector 04</div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Restaurants & Catering</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Strict hygiene standards for kitchens, dining areas, and food prep surfaces.</p>
+                </div>
+
+                <!-- Industry 5 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-hospital"></i>
+                    </div>
+                    <div class="text-gold-600 dark:text-gold-400 text-xs font-bold uppercase mb-1">Sector 05</div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Hospitals & Healthcare</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Sterile, disinfectant-grade supplies for clinics, medical centers, and care facilities.</p>
+                </div>
+
+                <!-- Industry 6 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <div class="text-gold-600 dark:text-gold-400 text-xs font-bold uppercase mb-1">Sector 06</div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Shopping Centres & Retail</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">High-traffic floor care and public restroom sanitation supplies.</p>
+                </div>
+
+                <!-- Industry 7 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-broom"></i>
+                    </div>
+                    <div class="text-gold-600 dark:text-gold-400 text-xs font-bold uppercase mb-1">Sector 07</div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Cleaning Contractors</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Wholesale cleaning chemicals and equipment for professional service providers.</p>
+                </div>
+
+                <!-- Industry 8 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-landmark"></i>
+                    </div>
+                    <div class="text-gold-600 dark:text-gold-400 text-xs font-bold uppercase mb-1">Sector 08</div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Government & Institutions</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Compliant tender and institutional supply agreements across public facilities.</p>
+                </div>
+
+                <!-- Industry 9 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-xl mb-6 shadow-md group-hover:scale-110 transition">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div class="text-gold-600 dark:text-gold-400 text-xs font-bold uppercase mb-1">Sector 09</div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-gold-600 transition" style="color: var(--text-main);">Residential Customers</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Quality home cleaning products for households and residential estates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section id="why-us" class="py-24 transition-colors duration-300" style="background-color: var(--bg-section-alt);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-gold-600 dark:text-gold-400 font-semibold text-sm uppercase tracking-wider block mb-2">WHY PARTNER WITH US?</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold mb-4" style="color: var(--text-main);">Excellence in Every Supply</h2>
+                <p class="text-base sm:text-lg" style="color: var(--text-muted);">"We believe that maintaining clean and hygienic environments should be simple, affordable and reliable. Our commitment is to provide customers with professional service and cleaning material solutions they can depend on."</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Point 1 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Quality Cleaning Solutions</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">We source and supply only superior-grade cleaning chemicals, materials, and equipment that deliver unmatched performance.</p>
+                </div>
+
+                <!-- Point 2 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-handshake-angle"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Customer-Focused Service</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Your satisfaction is our priority. We listen closely to your needs and provide prompt, personalized support.</p>
+                </div>
+
+                <!-- Point 3 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Professional Business Approach</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Operated with strict corporate governance, transparent quotation processes, and reliable accountability.</p>
+                </div>
+
+                <!-- Point 4 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Reliable Supply Solutions</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Consistent inventory and dependable delivery schedules so your operations never face shortages.</p>
+                </div>
+
+                <!-- Point 5 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-tags"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Affordable & Competitive Quotations</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Premium products at fair, competitive prices with flexible bulk order pricing structures.</p>
+                </div>
+
+                <!-- Point 6 -->
+                <div class="p-8 rounded-2xl border transition-all duration-300 shadow-xl group" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div class="w-14 h-14 rounded-xl gold-gradient flex items-center justify-center text-black font-bold text-2xl mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-hand-sparkles"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-gold-600 transition" style="color: var(--text-main);">Commitment to Hygiene & Cleanliness</h3>
+                    <p class="text-sm leading-relaxed" style="color: var(--text-muted);">Driven by our core philosophy to help every client keep their spaces impeccably clean and safe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="py-24 transition-colors duration-300" style="background-color: var(--bg-main);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-gold-600 dark:text-gold-400 font-semibold text-sm uppercase tracking-wider block mb-2">TESTIMONIALS</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold mb-4" style="color: var(--text-main);">What Our Clients Say</h2>
+                <p class="text-base sm:text-lg" style="color: var(--text-muted);">Read feedback from our valued partners across South Africa. *(Note: Demonstration testimonials displayed during development).*</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="p-8 rounded-2xl border flex flex-col justify-between shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div>
+                        <div class="flex text-gold-500 space-x-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-sm italic leading-relaxed mb-6" style="color: var(--text-muted);">
+                            "Josiel Cleaning Materials has been supplying our office park in Sandton with all our floor detergents and hand sanitizers. Their turnaround time and product quality are exceptional!"
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-4 pt-4 border-t" style="border-color: var(--border-color);">
+                        <div class="w-12 h-12 rounded-full gold-gradient flex items-center justify-center text-black font-bold text-lg">
+                            SN
+                        </div>
+                        <div>
+                            <div class="font-bold text-sm" style="color: var(--text-main);">Sipho Ndlovu</div>
+                            <div class="text-xs text-gold-600 dark:text-gold-400">Facilities Manager, Sandton Office Park</div>
+                            <div class="text-xs" style="color: var(--text-muted);">Johannesburg, Gauteng</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="p-8 rounded-2xl border flex flex-col justify-between shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div>
+                        <div class="flex text-gold-500 space-x-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-sm italic leading-relaxed mb-6" style="color: var(--text-muted);">
+                            "As a cleaning contractor managing several commercial sites, having a dependable bulk supplier like Josiel Cleaning Materials is vital. Their pricing and service are top-tier."
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-4 pt-4 border-t" style="border-color: var(--border-color);">
+                        <div class="w-12 h-12 rounded-full gold-gradient flex items-center justify-center text-black font-bold text-lg">
+                            LV
+                        </div>
+                        <div>
+                            <div class="font-bold text-sm" style="color: var(--text-main);">Liezel van der Merwe</div>
+                            <div class="text-xs text-gold-600 dark:text-gold-400">Operations Director, PrimeClean Services</div>
+                            <div class="text-xs" style="color: var(--text-muted);">Pretoria, Gauteng</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="p-8 rounded-2xl border flex flex-col justify-between shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div>
+                        <div class="flex text-gold-500 space-x-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-sm italic leading-relaxed mb-6" style="color: var(--text-muted);">
+                            "We source all our school's cleaning chemicals and paper products from Josiel. Their team is professional, friendly, and always delivers right on schedule in Nigel."
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-4 pt-4 border-t" style="border-color: var(--border-color);">
+                        <div class="w-12 h-12 rounded-full gold-gradient flex items-center justify-center text-black font-bold text-lg">
+                            KM
+                        </div>
+                        <div>
+                            <div class="font-bold text-sm" style="color: var(--text-main);">Khehla Mokoena</div>
+                            <div class="text-xs text-gold-600 dark:text-gold-400">Admin Head, Alra Park Educational Trust</div>
+                            <div class="text-xs" style="color: var(--text-muted);">Nigel, Gauteng</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQS SECTION -->
+    <section id="faqs" class="py-24 transition-colors duration-300" style="background-color: var(--bg-section-alt);">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-gold-600 dark:text-gold-400 font-semibold text-sm uppercase tracking-wider block mb-2">COMMON QUESTIONS</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold mb-4" style="color: var(--text-main);">Frequently Asked Questions</h2>
+                <p class="text-base sm:text-lg" style="color: var(--text-muted);">Find answers to common questions about our products, orders, and delivery services.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="rounded-2xl border overflow-hidden shadow-md" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <button onclick="toggleFaq(1)" class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-base sm:text-lg" style="color: var(--text-main);">Q1. What products does Josiel Cleaning Materials supply?</span>
+                        <i id="faq-icon-1" class="fa-solid fa-plus text-gold-600 dark:text-gold-400 transition-transform duration-300"></i>
+                    </button>
+                    <div id="faq-content-1" class="hidden px-6 pb-6 text-sm sm:text-base leading-relaxed border-t pt-4" style="border-color: var(--border-color); color: var(--text-muted);">
+                        We offer cleaning materials, hygiene products, cleaning chemicals, equipment and related cleaning supplies.
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="rounded-2xl border overflow-hidden shadow-md" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <button onclick="toggleFaq(2)" class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-base sm:text-lg" style="color: var(--text-main);">Q2. Do you supply businesses and households?</span>
+                        <i id="faq-icon-2" class="fa-solid fa-plus text-gold-600 dark:text-gold-400 transition-transform duration-300"></i>
+                    </button>
+                    <div id="faq-content-2" class="hidden px-6 pb-6 text-sm sm:text-base leading-relaxed border-t pt-4" style="border-color: var(--border-color); color: var(--text-muted);">
+                        Yes. Our product offering is designed to cater to different customer requirements, including businesses, institutions and households.
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="rounded-2xl border overflow-hidden shadow-md" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <button onclick="toggleFaq(3)" class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-base sm:text-lg" style="color: var(--text-main);">Q3. Can I request a quotation?</span>
+                        <i id="faq-icon-3" class="fa-solid fa-plus text-gold-600 dark:text-gold-400 transition-transform duration-300"></i>
+                    </button>
+                    <div id="faq-content-3" class="hidden px-6 pb-6 text-sm sm:text-base leading-relaxed border-t pt-4" style="border-color: var(--border-color); color: var(--text-muted);">
+                        Yes. Customers can contact us to request quotations for their required cleaning materials and supplies.
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="rounded-2xl border overflow-hidden shadow-md" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <button onclick="toggleFaq(4)" class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-base sm:text-lg" style="color: var(--text-main);">Q4. Do you accept bulk orders?</span>
+                        <i id="faq-icon-4" class="fa-solid fa-plus text-gold-600 dark:text-gold-400 transition-transform duration-300"></i>
+                    </button>
+                    <div id="faq-content-4" class="hidden px-6 pb-6 text-sm sm:text-base leading-relaxed border-t pt-4" style="border-color: var(--border-color); color: var(--text-muted);">
+                        Customers can enquire about bulk supply requirements and request a quotation.
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="rounded-2xl border overflow-hidden shadow-md" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <button onclick="toggleFaq(5)" class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-base sm:text-lg" style="color: var(--text-main);">Q5. How can I place an order?</span>
+                        <i id="faq-icon-5" class="fa-solid fa-plus text-gold-600 dark:text-gold-400 transition-transform duration-300"></i>
+                    </button>
+                    <div id="faq-content-5" class="hidden px-6 pb-6 text-sm sm:text-base leading-relaxed border-t pt-4" style="border-color: var(--border-color); color: var(--text-muted);">
+                        You can contact our team through WhatsApp or the website enquiry form.
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="rounded-2xl border overflow-hidden shadow-md" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <button onclick="toggleFaq(6)" class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-base sm:text-lg" style="color: var(--text-main);">Q6. Do you supply government departments and organisations?</span>
+                        <i id="faq-icon-6" class="fa-solid fa-plus text-gold-600 dark:text-gold-400 transition-transform duration-300"></i>
+                    </button>
+                    <div id="faq-content-6" class="hidden px-6 pb-6 text-sm sm:text-base leading-relaxed border-t pt-4" style="border-color: var(--border-color); color: var(--text-muted);">
+                        Customers from government institutions and other organisations are welcome to enquire about their cleaning supply requirements.
+                    </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="rounded-2xl border overflow-hidden shadow-md" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <button onclick="toggleFaq(7)" class="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-bold text-base sm:text-lg" style="color: var(--text-main);">Q7. How can I contact Josiel Cleaning Materials?</span>
+                        <i id="faq-icon-7" class="fa-solid fa-plus text-gold-600 dark:text-gold-400 transition-transform duration-300"></i>
+                    </button>
+                    <div id="faq-content-7" class="hidden px-6 pb-6 text-sm sm:text-base leading-relaxed border-t pt-4" style="border-color: var(--border-color); color: var(--text-muted);">
+                        You can reach us through our website contact form or WhatsApp.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT US SECTION -->
+    <section id="contact" class="py-24 relative transition-colors duration-300" style="background-color: var(--bg-main);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-gold-600 dark:text-gold-400 font-semibold text-sm uppercase tracking-wider block mb-2">GET IN TOUCH</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold mb-4" style="color: var(--text-main);">Contact Josiel Cleaning Materials</h2>
+                <p class="text-base sm:text-lg" style="color: var(--text-muted);">Have a question or ready to request a quotation? Reach out to our team today.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                <!-- Company Info & Details -->
+                <div class="lg:col-span-5 space-y-8 p-8 sm:p-10 rounded-3xl border shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl gold-gradient flex items-center justify-center text-black font-extrabold text-lg mb-4">
+                            JC
+                        </div>
+                        <h3 class="text-2xl font-bold mb-1" style="color: var(--text-main);">JOSIEL CLEANING MATERIALS</h3>
+                        <p class="text-gold-600 dark:text-gold-400 text-xs tracking-widest uppercase font-semibold">KEEP CLEAN</p>
+                    </div>
+
+                    <div class="space-y-6 text-sm" style="color: var(--text-muted);">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg border border-gold-500/30 flex items-center justify-center text-gold-600 dark:text-gold-400 shrink-0 mt-1" style="background-color: var(--bg-section-alt);">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <strong class="block mb-1" style="color: var(--text-main);">Physical Address:</strong>
+                                2465 Plalala Street,<br>
+                                Alra Park, Nigel, Gauteng,<br>
+                                South Africa
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg border border-gold-500/30 flex items-center justify-center text-gold-600 dark:text-gold-400 shrink-0 mt-1" style="background-color: var(--bg-section-alt);">
+                                <i class="fa-solid fa-building-shield"></i>
+                            </div>
+                            <div>
+                                <strong class="block mb-1" style="color: var(--text-main);">Company Registration:</strong>
+                                Registration Number: K2022880145<br>
+                                Registration Date: 16 December 2022
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg border border-gold-500/30 flex items-center justify-center text-gold-600 dark:text-gold-400 shrink-0 mt-1" style="background-color: var(--bg-section-alt);">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <div>
+                                <strong class="block mb-1" style="color: var(--text-main);">Website & Email:</strong>
+                                www.josiel.co.za<br>
+                                info@josiel.co.za
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-6 border-t" style="border-color: var(--border-color);">
+                        <a href="https://wa.me/27820000000?text=Hello%20Josiel%20Cleaning%20Materials,%20I%20would%20like%20to%20enquire%20about%20your%20products." target="_blank" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 rounded-xl transition flex items-center justify-center space-x-3 shadow-lg">
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            <span>CHAT ON WHATSAPP</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="lg:col-span-7 p-8 sm:p-10 rounded-3xl border shadow-xl" style="background-color: var(--bg-card); border-color: var(--border-color);">
+                    <h3 class="text-2xl font-bold mb-6" style="color: var(--text-main);">Send Us An Enquiry</h3>
+                    
+                    <form id="contact-form" onsubmit="handleFormSubmit(event)" class="space-y-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs uppercase tracking-wider font-semibold mb-2" style="color: var(--text-muted);">Full Name *</label>
+                                <input type="text" id="form-name" required class="w-full border rounded-xl px-4 py-3.5 focus:outline-none focus:border-gold-500 text-sm" style="background-color: var(--bg-section-alt); border-color: var(--border-color); color: var(--text-main);" placeholder="Enter your full name">
+                            </div>
+                            <div>
+                                <label class="block text-xs uppercase tracking-wider font-semibold mb-2" style="color: var(--text-muted);">Company Name</label>
+                                <input type="text" id="form-company" class="w-full border rounded-xl px-4 py-3.5 focus:outline-none focus:border-gold-500 text-sm" style="background-color: var(--bg-section-alt); border-color: var(--border-color); color: var(--text-main);" placeholder="Your business or organization">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs uppercase tracking-wider font-semibold mb-2" style="color: var(--text-muted);">Email Address *</label>
+                                <input type="email" id="form-email" required class="w-full border rounded-xl px-4 py-3.5 focus:outline-none focus:border-gold-500 text-sm" style="background-color: var(--bg-section-alt); border-color: var(--border-color); color: var(--text-main);" placeholder="name@example.co.za">
+                            </div>
+                            <div>
+                                <label class="block text-xs uppercase tracking-wider font-semibold mb-2" style="color: var(--text-muted);">Contact Number *</label>
+                                <input type="tel" id="form-phone" required class="w-full border rounded-xl px-4 py-3.5 focus:outline-none focus:border-gold-500 text-sm" style="background-color: var(--bg-section-alt); border-color: var(--border-color); color: var(--text-main);" placeholder="082 000 0000">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider font-semibold mb-2" style="color: var(--text-muted);">Product or Service Required *</label>
+                            <select id="form-product" class="w-full border rounded-xl px-4 py-3.5 focus:outline-none focus:border-gold-500 text-sm" style="background-color: var(--bg-section-alt); border-color: var(--border-color); color: var(--text-main);">
+                                <option value="General Cleaning Materials Enquiry">General Cleaning Materials Enquiry</option>
+                                <option value="Cleaning Chemicals">Cleaning Chemicals</option>
+                                <option value="Cleaning Equipment">Cleaning Equipment</option>
+                                <option value="Hygiene and Sanitation">Hygiene & Sanitation Supplies</option>
+                                <option value="Bulk Order Quotation">Bulk Order Quotation</option>
+                                <option value="Commercial / Institutional Supply">Commercial / Institutional Supply</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider font-semibold mb-2" style="color: var(--text-muted);">Message *</label>
+                            <textarea id="form-message" rows="4" required class="w-full border rounded-xl px-4 py-3.5 focus:outline-none focus:border-gold-500 text-sm" style="background-color: var(--bg-section-alt); border-color: var(--border-color); color: var(--text-main);" placeholder="Please describe your requirements, quantities, or questions..."></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full gold-gradient text-black font-bold py-4 rounded-xl shadow-lg hover:opacity-90 transition text-center text-sm flex items-center justify-center space-x-2">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span>SUBMIT ENQUIRY</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Google Map Embed Placeholder -->
+            <div class="mt-16 rounded-3xl overflow-hidden border border-gray-200 dark:border-gray-800 shadow-2xl h-96 relative">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.589!2d28.56!3d-26.42!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMlDCsDI1JzE4LjAiUyAyOMKwMzMnMzYuMCJF!5e0!3m2!1sen!2sza!4v1680000000000!5m2!1sen!2sza" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Josiel Cleaning Materials Location"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 text-sm pt-16 pb-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-16">
+                <!-- Col 1: Brand with Enlarged Fully Visible Logo -->
+                <div class="lg:col-span-2 space-y-4">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 rounded-2xl overflow-hidden border-2 border-gold-500 shadow-xl bg-black flex items-center justify-center p-0.5">
+                            <img src="logo.jpeg" alt="Josiel Cleaning Materials Logo" class="w-full h-full object-contain" onerror="this.src='https://placehold.co/100x100/121826/D4AF37?text=JC'">
+                        </div>
+                        <div>
+                            <span class="text-lg font-bold tracking-wider text-white block leading-tight">JOSIEL</span>
+                            <span class="text-xs tracking-widest text-gold-400 font-semibold uppercase">KEEP CLEAN</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-400 leading-relaxed pr-6">
+                        Josiel Cleaning Materials (Reg: K2022880145) is a premier South African cleaning materials and hygiene solutions supplier dedicated to quality, reliability, and customer satisfaction.
+                    </p>
+                    <div class="text-xs text-gold-400 font-semibold">
+                        Website: www.josiel.co.za
+                    </div>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">Quick Links</h4>
+                    <ul class="space-y-2.5 text-xs">
+                        <li><a href="#home" class="hover:text-gold-400 transition">Home</a></li>
+                        <li><a href="#about" class="hover:text-gold-400 transition">About Us</a></li>
+                        <li><a href="#products" class="hover:text-gold-400 transition">Products Catalogue</a></li>
+                        <li><a href="#services" class="hover:text-gold-400 transition">Our Services</a></li>
+                        <li><a href="#industries" class="hover:text-gold-400 transition">Industries We Serve</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Product Categories -->
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">Product Categories</h4>
+                    <ul class="space-y-2.5 text-xs">
+                        <li><a href="#products" class="hover:text-gold-400 transition">Cleaning Chemicals</a></li>
+                        <li><a href="#products" class="hover:text-gold-400 transition">Cleaning Equipment</a></li>
+                        <li><a href="#products" class="hover:text-gold-400 transition">Hygiene & Sanitation</a></li>
+                        <li><a href="#products" class="hover:text-gold-400 transition">Protective Accessories</a></li>
+                        <li><a href="#products" class="hover:text-gold-400 transition">Bulk Cleaning Materials</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Contact info -->
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">Contact Info</h4>
+                    <ul class="space-y-2.5 text-xs">
+                        <li><i class="fa-solid fa-location-dot text-gold-500 mr-2"></i>2465 Plalala St, Alra Park, Nigel, Gauteng</li>
+                        <li><i class="fa-solid fa-envelope text-gold-500 mr-2"></i>info@josiel.co.za</li>
+                        <li><i class="fa-solid fa-globe text-gold-500 mr-2"></i>www.josiel.co.za</li>
+                        <li class="pt-2"><button onclick="openQuoteModal('General Quote')" class="gold-gradient text-black font-bold px-4 py-2 rounded-lg text-xs w-full text-center">REQUEST A QUOTE</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-8 border-t border-gray-800 text-center flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500">
+                <p>&copy; 2026 Josiel Cleaning Materials. All Rights Reserved. Reg: K2022880145.</p>
+                <p class="mt-2 sm:mt-0 text-gold-400">Cleaning Materials Supplier South Africa | Keep Clean</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/27820000000?text=Hello%20Josiel%20Cleaning%20Materials,%20I%20would%20like%20to%20enquire%20about%20your%20cleaning%20materials." target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-600 hover:bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition duration-300 animate-bounce" title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- REQUEST A QUOTE MODAL -->
+    <div id="quote-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="rounded-3xl max-w-lg w-full p-8 relative shadow-2xl border" style="background-color: var(--bg-card); border-color: var(--border-color);">
+            <button onclick="closeQuoteModal()" class="absolute top-6 right-6 text-xl" style="color: var(--text-muted);">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <div class="mb-6">
+                <span class="text-gold-600 dark:text-gold-400 text-xs font-bold uppercase tracking-wider">JOSIEL CLEANING MATERIALS</span>
+                <h3 class="text-2xl font-extrabold mt-1" style="color: var(--text-main);">Request a Quotation</h3>
+                <p class="text-xs mt-1" style="color: var(--text-muted);">Fill in your details and required product below. We will get back to you promptly.</p>
+            </div>
+
+            <form onsubmit="handleQuoteSubmit(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs uppercase tracking-wider font-semibold mb-1" style="color: var(--text-muted);">Item / Service Requested</label>
+                    <input type="text" id="modal-item" readonly class="w-full border rounded-xl px-4 py-3 text-gold-600 dark:text-gold-400 font-semibold text-sm" style="background-color: var(--bg-section-alt); border-color: var(--border-color);">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-wider font-semibold mb-1" style="color: var(--text-muted);">Full Name *</label>
+                    <input type="text" id="modal-name" required class="w-full border rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-gold-500" style="background-color: var(--bg-section-alt); border-color: var(--border-color); color: var(--text-main);" placeholder="Your Name">
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider font-semibold mb-1" style="color: var(--text-muted);">Email Address *</label>
+                        <input type="email" id="modal-email" required class="w-full border rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-gold-500" style="background-color: var(--bg-section-alt); border-color: var(--border-color); color: var(--text-main);" placeholder="Email">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider font-semibold mb-1" style="color: var(--text-muted);">Contact Number *</label>
+                        <input type="tel" id="modal-phone" required class="w-full border rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-gold-500" style="background-color: var(--bg-section-alt); border-color: var(--border-color); color: var(--text-main);" placeholder="Phone">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-wider font-semibold mb-1" style="color: var(--text-muted);">Quantity / Specific Requirements</label>
+                    <textarea id="modal-notes" rows="3" class="w-full border rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-gold-500" style="background-color: var(--bg-section-alt); border-color: var(--border-color); color: var(--text-main);" placeholder="Specify bulk quantities or delivery location..."></textarea>
+                </div>
+                <button type="submit" class="w-full gold-gradient text-black font-bold py-3.5 rounded-xl shadow-lg hover:opacity-90 transition text-sm">
+                    SUBMIT QUOTATION REQUEST
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- SUCCESS NOTIFICATION TOAST -->
+    <div id="toast-notification" class="fixed bottom-6 left-6 z-50 border-2 border-gold-500 px-6 py-4 rounded-2xl shadow-2xl hidden flex items-center space-x-3 transition-all duration-300" style="background-color: var(--bg-card); color: var(--text-main);">
+        <div class="w-8 h-8 rounded-full gold-gradient flex items-center justify-center text-black font-bold">
+            <i class="fa-solid fa-check"></i>
+        </div>
+        <div>
+            <h4 class="font-bold text-sm text-gold-600 dark:text-gold-400">Enquiry Submitted Successfully!</h4>
+            <p class="text-xs" style="color: var(--text-muted);" id="toast-message">Thank you for contacting Josiel Cleaning Materials. We will respond shortly.</p>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT INTERACTION LOGIC -->
+    <script>
+        // Theme toggle with robust day (default) and night switching
+        function toggleTheme() {
+            const htmlEl = document.documentElement;
+            const themeIcon = document.getElementById('theme-icon');
+            const themeIconMob = document.getElementById('theme-icon-mob');
+            
+            if(htmlEl.classList.contains('dark')) {
+                htmlEl.classList.remove('dark');
+                if(themeIcon) {
+                    themeIcon.className = 'fa-solid fa-moon text-lg transition-transform duration-300 rotate-180';
+                    setTimeout(() => themeIcon.className = 'fa-solid fa-moon text-lg transition-transform duration-300', 300);
+                }
+                if(themeIconMob) themeIconMob.className = 'fa-solid fa-moon text-base';
+                localStorage.setItem('josiel_theme', 'light');
+            } else {
+                htmlEl.classList.add('dark');
+                if(themeIcon) {
+                    themeIcon.className = 'fa-solid fa-sun text-lg transition-transform duration-300 rotate-180 text-gold-400';
+                    setTimeout(() => themeIcon.className = 'fa-solid fa-sun text-lg transition-transform duration-300 text-gold-400', 300);
+                }
+                if(themeIconMob) themeIconMob.className = 'fa-solid fa-sun text-base text-gold-400';
+                localStorage.setItem('josiel_theme', 'dark');
+            }
+        }
+
+        // Initialize theme on page load (Default to light mode unless dark is saved)
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('josiel_theme');
+            const themeIcon = document.getElementById('theme-icon');
+            const themeIconMob = document.getElementById('theme-icon-mob');
+            
+            if (savedTheme === 'dark') {
+                document.documentElement.classList.add('dark');
+                if(themeIcon) themeIcon.className = 'fa-solid fa-sun text-lg text-gold-400';
+                if(themeIconMob) themeIconMob.className = 'fa-solid fa-sun text-base text-gold-400';
+            } else {
+                document.documentElement.classList.remove('dark');
+                if(themeIcon) themeIcon.className = 'fa-solid fa-moon text-lg';
+                if(themeIconMob) themeIconMob.className = 'fa-solid fa-moon text-base';
+            }
+        });
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Product filtering
+        function filterProducts(category) {
+            const cards = document.querySelectorAll('.product-card');
+            const tabs = document.querySelectorAll('.prod-tab');
+
+            tabs.forEach(tab => {
+                if(tab.getAttribute('data-category') === category) {
+                    tab.classList.remove('border', 'hover:border-gold-500');
+                    tab.style.backgroundColor = '';
+                    tab.style.color = '';
+                    tab.classList.add('bg-gold-500', 'text-black', 'shadow-md');
+                } else {
+                    tab.classList.remove('bg-gold-500', 'text-black', 'shadow-md');
+                    tab.classList.add('border', 'hover:border-gold-500');
+                }
+            });
+
+            cards.forEach(card => {
+                if(category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // FAQ Accordion
+        function toggleFaq(id) {
+            const content = document.getElementById(`faq-content-${id}`);
+            const icon = document.getElementById(`faq-icon-${id}`);
+            
+            if(content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.remove('fa-plus');
+                icon.classList.add('fa-minus', 'rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('fa-minus', 'rotate-180');
+                icon.classList.add('fa-plus');
+            }
+        }
+
+        // Quote Modal
+        function openQuoteModal(itemName) {
+            document.getElementById('modal-item').value = itemName;
+            document.getElementById('quote-modal').classList.remove('hidden');
+        }
+
+        function closeQuoteModal() {
+            document.getElementById('quote-modal').classList.add('hidden');
+        }
+
+        // Form submission handlers
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('form-name').value;
+            showToast(`Thank you ${name}, your enquiry has been received by Josiel Cleaning Materials.`);
+            document.getElementById('contact-form').reset();
+        }
+
+        function handleQuoteSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('modal-name').value;
+            closeQuoteModal();
+            showToast(`Thank you ${name}, your quotation request has been successfully sent.`);
+        }
+
+        function showToast(message) {
+            const toast = document.getElementById('toast-notification');
+            document.getElementById('toast-message').innerText = message;
+            toast.classList.remove('hidden');
+            setTimeout(() => {
+                toast.classList.add('hidden');
+            }, 5000);
+        }
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const nav = document.getElementById('navbar');
+            if(window.scrollY > 40) {
+                nav.classList.add('shadow-xl');
+            } else {
+                nav.classList.remove('shadow-xl');
+            }
+        });
+    </script>
+</body>
+</html>
